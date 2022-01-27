@@ -1,0 +1,7 @@
+{
+  "name": "ionic three.js example",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
