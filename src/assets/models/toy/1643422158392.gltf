@@ -1,0 +1,196 @@
+{
+	"accessors": [
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 189636,
+			"max": [
+				0.9605115056037903,
+				0.8212059736251831,
+				0.8020938634872437
+			],
+			"min": [
+				-0.9612995386123657,
+				-0.7434369325637817,
+				-1.114724040031433
+			],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 189636,
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 189636,
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5125,
+			"count": 189636,
+			"type": "SCALAR"
+		}
+	],
+	"asset": {
+		"extras": {
+			"created": "Sat Jan 29 18:54:05 2022"
+		},
+		"generator": "Gestaltor 2021.7.1 Corn Community",
+		"version": "2.0"
+	},
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 2275632,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 2275632,
+			"byteOffset": 2275632
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1517088,
+			"byteOffset": 4551264
+		},
+		{
+			"buffer": 0,
+			"byteLength": 758544,
+			"byteOffset": 6068352
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 6826896,
+			"uri": "1643422158392.bin"
+		}
+	],
+	"extensionsUsed": [
+		"Arc3DTech",
+		"MTL"
+	],
+	"images": [
+		{
+			"mimeType": "image/png",
+			"name": "",
+			"uri": "1643422158392.png"
+		}
+	],
+	"materials": [
+		{
+			"alphaMode": "OPAQUE",
+			"doubleSided": true,
+			"extensions": {
+				"MTL": {
+					"Ka": [
+						0.429,
+						0.535,
+						0.382
+					],
+					"Kd": [
+						0.429,
+						0.535,
+						0.382
+					],
+					"Ks": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"Ns": 5.0,
+					"d": 1.0,
+					"illum": 2.0,
+					"map_Kd": "1643422158392.png"
+				}
+			},
+			"name": "",
+			"pbrMetallicRoughness": {
+				"baseColorTexture": {
+					"index": 0,
+					"texCoord": 0
+				},
+				"metallicFactor": 1.0,
+				"roughnessFactor": 1.0
+			}
+		}
+	],
+	"meshes": [
+		{
+			"extensions": {
+				"Arc3DTech": {
+					"Date": "1 29,2022 13:9:18",
+					"Model": "Object",
+					"ScanAngle": "-180.0;0.0;0.0;180.0"
+				}
+			},
+			"name": "ArcsoftMeshes0",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": 1,
+						"POSITION": 0,
+						"TEXCOORD_0": 2
+					},
+					"indices": 3,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0,
+			"name": "",
+			"rotation": [
+				-0.5489601462068306,
+				0.038199748629490785,
+				-0.5115663976565006,
+				0.6599116288337175
+			],
+			"scale": [
+				1.0,
+				1.0,
+				1.0
+			],
+			"translation": [
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9987,
+			"name": "",
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scene": 0,
+	"scenes": [
+		{
+			"nodes": [
+				0
+			]
+		}
+	],
+	"textures": [
+		{
+			"name": "",
+			"sampler": 0,
+			"source": 0
+		}
+	]
+}

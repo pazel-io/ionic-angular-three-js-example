@@ -1,0 +1,36 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> 3D Models </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <!-- <div #threejsContainer class="container"></div> -->
+  <ion-card (click)="view('toy')">
+    <img src="../../assets/models/toy.jpeg" />
+    <ion-card-header>
+      <ion-card-subtitle>Soft toy</ion-card-subtitle>
+      <ion-card-title>Snugglebug</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Every child needs the softest, cutest soft toy to hold close during
+      thunderstorms, talk to when lonely, snuggle with at bedtime.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card (click)="view('pot')">
+    <img src="../../assets/models/pot.jpeg" />
+    <ion-card-header>
+      <ion-card-subtitle>Mina Kari</ion-card-subtitle>
+      <ion-card-title>Mina Kari Sugar Cube Bowl</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      With dome-shaped lid and reliefs and Fine floral patterns in different
+      colors delicately drawn on the surface create this stunning handicraft
+      which is appropriate for serving Nut, chocolate, sugar cube or it can be
+      used as sugar Bowl.
+    </ion-card-content>
+  </ion-card>
+</ion-content>
